@@ -1,8 +1,17 @@
-const express = require("express");
+import express, { json } from "express";
+import livrosRoutes from "./route/livrosRoutes";
+import autoresRoutes from "./route/autoresRoutes";
+
 const app = express();
 
-app.use(express.json());
+app.use(json());
+
+// Rotas
+app.use(livrosRoutes);
+app.use(autoresRoutes);
+
 app.get("/", (req, res) => {
-  res.json({ message: "API de Biblioteca rodando " });
+  res.json({ message: "API de Biblioteca rodando" });
 });
-module.exports = app;
+
+export default app;
