@@ -10,5 +10,4 @@ router
   .post("/livros", LivrosController.cadastrar)
   .put("/livros/:id", LivrosController.atualizar)
   .delete("/livros/:id", LivrosController.remover);
-
 export default router;

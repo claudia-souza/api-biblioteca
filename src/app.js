@@ -8,7 +8,6 @@ app.use(json());
 
 // Rotas
 app.use(livrosRoutes);
-app.use(autoresRoutes);
 
 app.get("/", (req, res) => {
   res.json({ message: "API de Biblioteca rodando" });
