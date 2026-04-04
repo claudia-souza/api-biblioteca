@@ -5,7 +5,7 @@ const router = Router();
 
 router
   .get("/livros", LivrosController.listarTodos)
-  .get("/livros/busca", LivrosController.buscarPorTitulo)
+  .get("/livros/busca", LivrosController.buscarLivroPorTitulo)
   .get("/livros/:id", LivrosController.buscarPorId)
   .post("/livros", LivrosController.cadastrar)
   .put("/livros/:id", LivrosController.atualizar)
