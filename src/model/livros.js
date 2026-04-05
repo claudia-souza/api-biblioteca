@@ -67,4 +67,4 @@ const livros = [
   },
 ];
 
-export default livros;
+module.exports = livros;

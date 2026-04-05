@@ -12,25 +12,27 @@ Evandro de Lima Rodrigues
 
 ## Alunos
 
-* Cláudia Ferreira
-* Thaís Araújo
-* João Pedro Fialho
+- Cláudia Ferreira
+- Thaís Araújo
+- João Pedro Fialho
 
 ---
 
 ## 🚀 Tecnologias Utilizadas
 
-* Node.js
-* Express
-* JavaScript
+- Node.js
+- Express
+- JavaScript
 
 ---
 
 ## 🏗️ Arquitetura do Projeto
+
 O projeto segue o padrão de arquitetura em camadas, promovendo organização, escalabilidade e separação de responsabilidades.
-* ✔ Organização do código
-* ✔ Separação de responsabilidades
-* ✔ Facilidade de manutenção
+
+- ✔ Organização do código
+- ✔ Separação de responsabilidades
+- ✔ Facilidade de manutenção
 
 ### 📁 Estrutura
 
@@ -46,9 +48,9 @@ src/
 
 ## 📌 Responsabilidades
 
-* **routes** → define as rotas da API
-* **controllers** → contém a lógica das requisições (req/res)
-* **models** → simula o banco de dados com arrays
+- **routes** → define as rotas da API
+- **controllers** → contém a lógica das requisições (req/res)
+- **models** → simula o banco de dados com arrays
 
 ---
 
@@ -69,8 +71,7 @@ npm install
 ### 3️⃣ Executar o projeto
 
 ```bash
-node src/app.js
+node server.js
 ```
 
 ---
-

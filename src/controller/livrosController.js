@@ -1,4 +1,4 @@
-const livros = require("../models/livros");
+const livros = require("../model/livros");
 
 // List livros
 exports.listarTodos = (req, res) => {

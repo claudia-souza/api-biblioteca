@@ -1,8 +1,7 @@
-import { Router } from "express";
-import LivrosController from "../controller/livrosController";
+const express = require("express");
+const router = express.Router();
 
-const router = Router();
-
+const LivrosController = require("../controller/livrosController");
 router
   .get("/livros", LivrosController.listarTodos)
   .get("/livros/busca", LivrosController.buscarPorTitulo)
@@ -10,4 +9,5 @@ router
   .post("/livros", LivrosController.cadastrar)
   .put("/livros/:id", LivrosController.atualizar)
   .delete("/livros/:id", LivrosController.remover);
-export default router;
+
+module.exports = router;
